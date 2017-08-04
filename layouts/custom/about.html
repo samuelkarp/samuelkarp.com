@@ -1,0 +1,47 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+      <section id="about">
+        <div class="container">
+        <div class="avatar">
+          <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+        </div>
+	<h1><strong>{{ .Site.Params.author }}</strong></h1>
+	<h4>{{ .Site.Params.bio.location }}</h4>
+	<div class="blogpost">
+		<h2>Work Experience</h2>
+		{{ range $i, $w := .Site.Data.work.source }}
+		<h3>{{ $w.title }} at <a href="{{ $w.website }}" target="_blank">{{ $w.company }}</a></h3>
+		<h5>{{ $w.from }} - {{ $w.until }} | {{ $w.location }}</h5>
+		<div>{{ $w.description | markdownify }}</div>
+		{{ end }}
+	</div>
+	<div class="blogpost">
+		<h2>Education</h2>
+		{{ range $i, $e := .Site.Data.education.source }}
+		<h3><a href="{{ $e.website }}" target="_blank">{{ $e.name }}</a></h3>
+		<h4>{{ $e.degree }}, <a href="{{ $e.deptsite }}" target="_blank">{{ $e.dept }}</a>, Class of {{ $e.year }}</h4>
+		{{ end }}
+	</div>
+	<div class="blogpost">
+		<h2>Honors and Awards</h2>
+		{{ range $i, $a := .Site.Data.awards.source }}
+		<h3>{{ $a.name }}</h3>
+		<h5>{{ $a.org }} | {{ $a.when }}</h5>
+		<div>{{ $a.description | markdownify }}</div>
+		{{ end }}
+	</div>
+	<div class="blogpost">
+		<h2>Affiliations</h2>
+		{{ range $i, $a := .Site.Data.affiliations.source }}
+		<h3><a href="{{ $a.website }}" target="_blank">{{ $a.name }}</a></h3>
+		<div>{{ $a.description | markdownify }}</div>
+		{{ end }}
+	</div>
+        {{ partial "social.html" . }}
+      </section>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>

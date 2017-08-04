@@ -1,0 +1,54 @@
+baseurl = "https://samuelkarp.com/"
+languageCode = "en-US"
+title = "Samuel Karp"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "sam.jpg"
+  author = "Samuel Karp"
+  description = "Describe your website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "samuelkarp"
+  Twitter       = "samuelkarp"
+  LinkedIn      = "samuelkarp"
+  Stackoverflow = "users/112821/samuel-karp"
+
+[params.bio]
+  Title    = "Software Development Engineer"
+  Location = "Seattle, WA"
+[params.bio.company]
+  Name    = "Amazon.com, Inc"
+  Website = "https://amazon.com"
+
+[params.bio.product]
+  Name    = "Amazon EC2 Container Service"
+  Website = "https://ecs.aws"
+
+## Main Menu
+[[menu.main]]
+  name = "about"
+  weight = 100
+  identifier = "about"
+  url = "/about/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "blog"
+  identifier = "blog"
+  weight = 300
+  url = "http://blog.samuelkarp.com"

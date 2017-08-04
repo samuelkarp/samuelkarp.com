@@ -1,0 +1,82 @@
+name = "Projects"
+
+[[source]]
+icon        = "fa fa-github"
+name        = "Amazon ECS Container Agent"
+website     = "https://github.com/aws/amazon-ecs-agent"
+role        = "maintainer"
+description = """
+The Amazon ECS Container Agent is the on-host component of Amazon EC2 Container
+Service.  The agent is responsible for interfacing between Docker and the
+Amazon ECS backend.
+
+My role as a member of the Amazon ECS team is to develop and maintain all the
+on-host components.
+"""
+
+[[source]]
+icon        = "fa fa-github"
+name        = "Docker"
+website     = "https://github.com/moby/moby"
+role        = "contributor"
+description = """
+Docker popularized Linux containers and is now probably the most popular
+container runtime. Docker helps people run applications in an image-based,
+isolated fashion.
+
+I contributed the
+[Amazon CloudWatch Logs driver](https://docs.docker.com/engine/admin/logging/awslogs/),
+which helps send container output to CloudWatch Logs. I help maintain the
+driver on an ongoing basis.
+"""
+
+[[source]]
+icon        = "fa fa-github"
+name        = "containerd"
+website     = "https://github.com/containerd/containerd"
+role        = "contributor"
+description = """
+containerd is a container runtime built by the core maintainers of Docker and
+represents a rewrite of the core runtime components.  containerd provides a
+limited set of functionality in a much more flexible manner compared to Docker.
+
+I have prototyped integration between the Amazon ECS Container Agent and and
+containerd and have contributed minor code to containerd.
+"""
+
+[[source]]
+icon        = "fa fa-github"
+name        = "Amazon ECR Credential Helper"
+website     = "https://github.com/awslabs/amazon-ecr-credential-helper"
+role        = "author"
+description = """
+The Amazon ECR Credential Helper is a
+[Docker credential helper](https://github.com/docker/docker-credential-helpers)
+that makes it easier to use Amazon EC2 Container Registry to push and pull
+Docker container images.
+"""
+
+[[source]]
+icon        = "fa fa-github"
+name        = "Amazon ECR containerd resolver"
+website     = "https://github.com/samuelkarp/amazon-ecr-containerd-resolver"
+role        = "author"
+description = """
+containerd makes pulling images more flexible, since images are pulled in
+client software rather than by the containerd daemon. The Amazon ECR containerd
+resolver is a library that can be used by software integrating with containerd
+to pull images from Amazon ECR using the native API.
+"""
+
+[[source]]
+icon        = "fa fa-github"
+name        = "purple-docker"
+website     = "https://github.com/samuelkarp/purple-docker"
+role        = "author"
+description = """
+*Haven't you always wanted to chat with your containers? Now, with
+purple-docker, you can!*
+
+purple-docker implements a protocol plugin (prpl) that tracks running Docker
+containers in your buddy list and presents STDIO via the chat interface.
+"""

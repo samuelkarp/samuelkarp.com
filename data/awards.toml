@@ -1,0 +1,41 @@
+name = "awards"
+
+[[source]]
+name        = "Eagle Scout"
+org         = "Boy Scouts of America"
+when        = "January 2006"
+description = """
+Eagle Scout is the highest rank attainable in the Boy Scouting program of the
+Boy Scouts of America (BSA). A Scout who attains this rank is called an Eagle
+Scout or Eagle. Since its introduction in 1911, the Eagle Scout rank has been
+earned by more than 2 million young men. The title of Eagle Scout is held for
+life, thus giving rise to the phrase "Once an Eagle, always an Eagle."
+
+Requirements include earning at least 21 merit badges and demonstrating Scout
+Spirit through the Boy Scout Oath and Law, service, and leadership. This
+includes an extensive service project that the Scout plans, organizes, leads,
+and manages. Eagle Scouts are presented with a medal and a badge that visibly
+recognizes the accomplishments of the Scout. Additional recognition can be
+earned through Eagle Palms, awarded for completing additional tenure,
+leadership, and merit badge requirements.
+
+(description from
+[Wikipedia](http://en.wikipedia.org/w/index.php?title=Eagle_Scout_(Boy_Scouts_of_America)&oldid=548311899))
+"""
+
+[[source]]
+name        = "Vigil Honor"
+org         = "Order of the Arrow, Boy Scouts of America"
+when        = "March 2006"
+description = """
+The Vigil Honor is the highest honor that the Order of the Arrow can bestow upon
+its members for service to lodge, council, and Scouting. Membership cannot be
+won by a person's conscious endeavors.
+
+The Vigil Honor is a high mark of distinction and recognition reserved for those
+Arrowmen who, by reason of exceptional service, personal effort, and unselfish
+interest, have made distinguished contributions beyond the immediate
+responsibilities of their position of office to one or more of the Lodge, Order
+of the Arrow, Scouting community, or Scout Camp.
+"""
+

@@ -1,0 +1,64 @@
+name="work"
+
+[[source]]
+title       = "Software Development Engineer"
+company     = "Amazon.com, Inc"
+website     = "https://amazon.com"
+from        = "November 2014"
+until       = "Present"
+location    = "Seattle, WA"
+description = """
+Software Development Engineer helping build Amazon EC2 Container Service,
+Amazon's cluster management service focused on Containers. Primarily focused on
+software which runs on customer-owned EC2 instances, including the ECS Agent,
+Docker, ecs-init, and the ECS-optimized AMI. Active maintainer of ECS
+open-source projects. Contributor upstream to several non-Amazon open-source
+projects, including Docker, go-dockerclient, docker-storage-setup, and
+container-transform. Wrote the CloudWatch Logs logging driver for Docker and
+the Amazon ECR Docker Credential Helper.
+"""
+
+[[source]]
+title       = "Software Development Engineer"
+company     = "Amazon.com, Inc"
+website     = "https://amazon.com"
+from        = "September 2012"
+until       = "November 2014"
+location    = "Seattle, WA"
+description = """
+Software Development Engineer focused on customer-facing functionality for
+Amazon Local, including the public website and back-end services (ordering,
+fulfillment, and digital inventory management among others). Developed software
+to support new features and improve existing features while maintaining a focus
+on platform performance and scalability. Major contributor to search for Amazon
+Local, theater tickets integration with Ingresso, the Location Preferences
+feature, surfacing Amazon Local deals on Amazon.com, improving marketing
+features, and improving discoverability of deals on the Amazon Local website.
+"""
+
+[[source]]
+title       =  "Software Development Engineer Intern"
+company     = "Amazon.com, Inc"
+website     = "https://amazon.com"
+from        = "June 2011"
+until       = "September 2011"
+location    = "Seattle, WA"
+description = """
+Developed new features for Amazon Local including automated publication of
+deals to region-specific Twitter accounts and integration with Amazon's system
+for rendering dynamic content based on specific criteria. Integrated these new
+features with Amazon's systems for automatic monitoring and error reporting.
+"""
+
+[[source]]
+title       = "Bruin OnLine Senior Consultant"
+company     = "UCLA Information Technology Services"
+website     = "https://it.ucla.edu"
+from        = "September 2008"
+until       = "June 2012"
+location    = "Los Angeles, CA"
+description = """
+Provide telephone, email, and walk-in support for email, anti-virus, VPN, proxy,
+and account issues. Assist in the training of new consultants and in quality
+control.
+"""

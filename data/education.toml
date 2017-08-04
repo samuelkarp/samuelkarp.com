@@ -1,0 +1,9 @@
+name = "education"
+
+[[source]]
+name     = "University of California, Los Angeles"
+website  = "https://www.ucla.edu"
+degree   = "Bachelor of Science"
+dept     = "Computer Science"
+deptsite = "http://www.cs.ucla.edu"
+year     = "2012"

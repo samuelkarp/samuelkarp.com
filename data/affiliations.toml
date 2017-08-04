@@ -1,0 +1,10 @@
+name = "affiliations"
+
+[[source]]
+name        = "Triangle Fraternity"
+website     = "http://triangle.org"
+description = """
+Triangle Fraternity is a social and academic fraternity whose membership is
+restricted to Engineers, Architects, and Scientists. Triangle Fraternity was
+founded in 1907 has been an active part of Greek life at UCLA since 1957.
+"""
