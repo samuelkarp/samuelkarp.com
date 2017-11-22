@@ -26,14 +26,14 @@ theme = "sustain"
   Stackoverflow = "users/112821/samuel-karp"
 
 [params.bio]
-  Title    = "Software Development Engineer"
+  Title    = "Senior Software Development Engineer"
   Location = "Seattle, WA"
 [params.bio.company]
-  Name    = "Amazon.com, Inc"
-  Website = "https://amazon.com"
+  Name    = "Amazon Web Services, Inc."
+  Website = "https://aws.amazon.com"
 
 [params.bio.product]
-  Name    = "Amazon EC2 Container Service"
+  Name    = "Amazon Elastic Container Service"
   Website = "https://ecs.aws"
 
 ## Main Menu
