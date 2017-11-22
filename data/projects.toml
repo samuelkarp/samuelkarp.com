@@ -6,9 +6,9 @@ name        = "Amazon ECS Container Agent"
 website     = "https://github.com/aws/amazon-ecs-agent"
 role        = "maintainer"
 description = """
-The Amazon ECS Container Agent is the on-host component of Amazon EC2 Container
-Service.  The agent is responsible for interfacing between Docker and the
-Amazon ECS backend.
+The Amazon ECS Container Agent is the on-host component of Amazon Elastic
+Container Service.  The agent is responsible for interfacing between the
+container runtime and the Amazon ECS backend.
 
 My role as a member of the Amazon ECS team is to develop and maintain all the
 on-host components.
@@ -52,7 +52,7 @@ role        = "author"
 description = """
 The Amazon ECR Credential Helper is a
 [Docker credential helper](https://github.com/docker/docker-credential-helpers)
-that makes it easier to use Amazon EC2 Container Registry to push and pull
+that makes it easier to use Amazon Elastic Container Registry to push and pull
 Docker container images.
 """
 
