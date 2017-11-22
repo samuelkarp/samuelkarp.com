@@ -1,0 +1,54 @@
+https://keybase.io/samuelkarp
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://samuelkarp.com
+  * I am samuelkarp (https://keybase.io/samuelkarp) on keybase.
+  * I have a public key ASDiy6C84ElhIeESEOsouuEyEZwAnPIAzmGM6Aw0uUlKmwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b1f2a8a645a555bb107592cd87a75c8fad5bde246f4f89ed7043fcb41295c5fb0a",
+      "host": "keybase.io",
+      "kid": "0120e2cba0bce0496121e11210eb28bae132119c009cf200ce618ce80c34b9494a9b0a",
+      "uid": "971ce6542d5af453f02b468b952a1819",
+      "username": "samuelkarp"
+    },
+    "merkle_root": {
+      "ctime": 1505110384,
+      "hash": "3aa62f9a61f3ba029a16c166b7fc75fb663e57f956c35ab77f58a4abdc95767ce12755858c3de4368c9c69a6ba7614a125b415e8413cbafde1bf28185f5346d3",
+      "hash_meta": "5fb33c236bd0d1d493c7a077532d0e2a9c56c0a27ca3b1932d319f28a3e3ca7d",
+      "seqno": 1379468
+    },
+    "service": {
+      "hostname": "samuelkarp.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.29"
+  },
+  "ctime": 1505110416,
+  "expire_in": 504576000,
+  "prev": "b58392b5f3b3a2a3856b126b5231202d2887d553623a2cb4da3754007ed66ec0",
+  "seqno": 28,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg4sugvOBJYSHhEhDrKLrhMhGcAJzyAM5hjOgMNLlJSpsKp3BheWxvYWTFA0l7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYjFmMmE4YTY0NWE1NTViYjEwNzU5MmNkODdhNzVjOGZhZDViZGUyNDZmNGY4OWVkNzA0M2ZjYjQxMjk1YzVmYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTJjYmEwYmNlMDQ5NjEyMWUxMTIxMGViMjhiYWUxMzIxMTljMDA5Y2YyMDBjZTYxOGNlODBjMzRiOTQ5NGE5YjBhIiwidWlkIjoiOTcxY2U2NTQyZDVhZjQ1M2YwMmI0NjhiOTUyYTE4MTkiLCJ1c2VybmFtZSI6InNhbXVlbGthcnAifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDUxMTAzODQsImhhc2giOiIzYWE2MmY5YTYxZjNiYTAyOWExNmMxNjZiN2ZjNzVmYjY2M2U1N2Y5NTZjMzVhYjc3ZjU4YTRhYmRjOTU3NjdjZTEyNzU1ODU4YzNkZTQzNjhjOWM2OWE2YmE3NjE0YTEyNWI0MTVlODQxM2NiYWZkZTFiZjI4MTg1ZjUzNDZkMyIsImhhc2hfbWV0YSI6IjVmYjMzYzIzNmJkMGQxZDQ5M2M3YTA3NzUzMmQwZTJhOWM1NmMwYTI3Y2EzYjE5MzJkMzE5ZjI4YTNlM2NhN2QiLCJzZXFubyI6MTM3OTQ2OH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJzYW11ZWxrYXJwLmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI5In0sImN0aW1lIjoxNTA1MTEwNDE2LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImI1ODM5MmI1ZjNiM2EyYTM4NTZiMTI2YjUyMzEyMDJkMjg4N2Q1NTM2MjNhMmNiNGRhMzc1NDAwN2VkNjZlYzAiLCJzZXFubyI6MjgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAmZmOxKDOPu3P/vGKajwyLUDjDU5XKCdIwHZJsAO2D7p1FAj7xZdPXYPt1hIMvYcC/MvIedmozJA2AnY9YQ37AKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOxFHuzZSV8zbH4Scq23WgXOF6xeIyx6MHsrtheqCPMQo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/samuelkarp
+
+
