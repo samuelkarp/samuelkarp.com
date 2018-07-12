@@ -51,4 +51,4 @@ theme = "sustain"
   name = "blog"
   identifier = "blog"
   weight = 300
-  url = "http://blog.samuelkarp.com"
+  url = "https://blog.samuelkarp.com"
