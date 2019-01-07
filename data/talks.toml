@@ -1,0 +1,31 @@
+name = "Talks"
+
+[[talk]]
+title       = "Linux Container Primitives and Runtimes"
+date        = "November 26 and November 27, 2018"
+conference  = "AWS re:Invent"
+conf_year   = "2018"
+track       = "containers"
+talk_id     = "CON407"
+slideshare  = "https://www.slideshare.net/AmazonWebServices/linux-container-primitives-and-runtimes-con407r1-aws-reinvent-2018"
+speakerdeck = "https://speakerdeck.com/samuelkarp/linux-container-primitives-and-runtimes-re-invent-2018-con407"
+abstract = """
+In this session, we'll explore the different Linux primitives that are commonly
+used in implementing container runtimes. Starting with Docker containers and
+moving down through the stack, we'll cover containerd, runc, and the underlying
+Linux primitives like cgroups, namespaces, and union filesystems. We'll also
+discuss alternative container runtimes like CRI-O, rkt, and systemd-nspawn and
+what makes them different. This will be an interactive session with a live demo
+and open questions.
+"""
+
+[[talk]]
+title       = "Windows Containers on Amazon ECS"
+date        = "November 28, 2017"
+conference  = "AWS re:Invent"
+conf_year   = "2017"
+track       = "containers"
+talk_id     = "CON324"
+speakerdeck = "https://speakerdeck.com/samuelkarp/windows-containers-on-amazon-ecs-re-invent-2017-con324"
+abstract    = """
+"""

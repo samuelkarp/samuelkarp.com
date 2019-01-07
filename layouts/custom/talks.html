@@ -1,0 +1,35 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+      <section id="talks">
+        <div class="container">
+          <h3>{{ .Site.Data.talks.name }}</h3>
+          <div class="panel panel-default">
+            <div class="panel-body">
+            {{ range $i, $el := .Site.Data.talks.talk }}
+              <div>
+                <h3>
+		  <strong>{{ $el.title }}</strong> ({{ $el.conference }}, {{ $el.conf_year}})
+                </h3>
+		<i>{{ $el.date }} - {{ $el.talk_id }}</i>
+		<div>{{ $el.abstract | markdownify }}</div>
+		<ul>
+		{{ with $el.slideshare }}
+		  <li><a href="{{ $el.slideshare }}"><i class="fa fa-slideshare"></i>&nbsp;&nbsp;View slides on Slideshare</a></li>
+		{{ end }}
+		{{ with $el.speakerdeck }}
+		  <li><a href="{{ $el.speakerdeck }}"><i class="fa fa-file-powerpoint-o"></i>&nbsp;&nbsp;View slides on SpeakerDeck</a></li>
+		{{ end}}
+		</ul>
+              </div>
+            {{ end }}
+            </div>
+          </div>
+        </div>
+        {{ partial "social" . }}
+      </section>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>
