@@ -2,16 +2,52 @@ name = "Projects"
 
 [[source]]
 icon        = "fa fa-github"
+name        = "firecracker-containerd"
+website     = "https://github.com/firecracker-microvm/firecracker-containerd"
+role        = "maintainer"
+description = """
+The [Firecrakcer VMM](https://firecracker-microvm.github.io/) is a virtual
+machine manager optimized for container-like virtual machines (termed
+"microVMs") with fast startup, a limited device model, and fixed lifetimes.
+
+This project enables the use of the [containerd](https://containerd.io)
+container runtime to manage Firecracker microVMs using familiar container
+ecosystem tools and conventions.
+"""
+
+[[source]]
+icon        = "fa fa-github"
+name        = "Firecracker SDK for Go"
+website     = "https://github.com/firecracker-microvm/firecracker-go-sdk"
+role        = "maintainer"
+description = """
+The Firecracker SDK for Go is an SDK for interacting with the
+[Firecracker VMM](https://firecracker-microvm.github.io/) API from the Go
+programming language.  The SDK provides a higher-level abstraction on top of
+the raw API and optimizes for sane, safe defaults while allowing developers the
+flexibility to override when necessary.
+"""
+
+[[source]]
+icon        = "fa fa-github"
+name        = "firectl"
+website     = "https://github.com/firecracker-microvm/firectl"
+role        = "maintainer"
+description = """
+firectl is a simple command-line interface for interacting with the
+[Firecracker VMM](https://firecracker-microvm.github.io) to create and run
+virtual machines without having to directly interact with the API.
+"""
+
+[[source]]
+icon        = "fa fa-github"
 name        = "Amazon ECS Container Agent"
 website     = "https://github.com/aws/amazon-ecs-agent"
-role        = "maintainer"
+role        = "maintainer emeritus"
 description = """
 The Amazon ECS Container Agent is the on-host component of Amazon Elastic
 Container Service.  The agent is responsible for interfacing between the
 container runtime and the Amazon ECS backend.
-
-My role as a member of the Amazon ECS team is to develop and maintain all the
-on-host components.
 """
 
 [[source]]

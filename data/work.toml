@@ -9,16 +9,25 @@ until       = "Present"
 location    = "Seattle, WA"
 description = """
 Senior Software Development Engineer helping build Amazon Elastic Container
-Service, Amazon Web Service's cluster management service for Linux and
-Windows containers.  Primarily focused on software which runs on
-customer-owned EC2 instances, including the ECS agent, Docker, ecs-init, and
-the ECS-optimized Amazon Linux AMI.  Led the engineering design and technical
-work to port the ECS agent to Windows and enable customers to use Windows
-Server containers with Amazon ECS.  Active maintainer of ECS open-source
-projects.  Contributor upstream to several non-Amazon open-source projects,
-including Docker, go-dockerclient, container-storage-setup, and
-container-transform.  Wrote the CloudWatch Logs logging driver for Docker and
-the Amazon ECR Docker Credential Helper.
+Service, Amazon Elastic Container Service for Kubernetes, Amazon Elastic
+Container Registry, and AWS Fargate.  Primarily focused on the container
+runtime layer and associated technologies for configuring, running, and
+managing containers as well as storage and distribution of container images.
+Currently working on integrating container technology with virtual machine
+technology provided by the
+[Firecracker VMM](https://firecracker-microvm.github.io/).
+
+Previously focused on Amazon Elastic Container Service, Amazon Web Service's
+cluster management service for Linux and Windows containers.  Was responsible
+for a variety of software that ran on customer-owned EC2 instances, including
+the ECS agent, Docker, ecs-init, and the ECS-optimized Amazon Linux AMI.  Led
+the engineering design and technical work to port the ECS agent to Windows and
+enable customers to use Windows Server containers with Amazon ECS.
+
+Active maintainer of ECS open-source projects.  Contributor upstream to several
+non-Amazon open-source projects, including Docker, containerd, go-dockerclient,
+container-storage-setup, and container-transform.  Wrote the CloudWatch Logs
+logging driver for Docker and the Amazon ECR Docker Credential Helper.
 """
 
 [[source]]
