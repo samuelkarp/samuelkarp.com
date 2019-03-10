@@ -1,6 +1,60 @@
 name = "Talks"
 
 [[talk]]
+title        = "Deep Dive into firecracker-containerd"
+date         = "April 30 - May 2, 2019"
+conference   = "DockerCon"
+conf_year    = "2019"
+track        = "open source"
+talk_id      = "281969"
+catalog_link = "https://dockercon19.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=281969"
+abstract = """
+Amazon recently released the Firecracker Virtual Machine Manager (VMM) built on
+top of the Linux KVM subsystem, which is optimized for lightweight,
+container-like "micro"-VMs. This session dives deep into the architecture of
+the firecracker-containerd project, which aims to allow portability between
+standard OCI container images and the larger container ecosystem with
+Firecracker micro-VMs. Topics covered will include the standard containerd
+architecture with the reference OCI runtime (runc), challenges adapting
+containers into micro-VMs, and the firecracker-containerd suite.
+"""
+
+[[talk]]
+title        = "Deep Dive into firecracker-containerd"
+date         = "April 26-28, 2019"
+conference   = "LinuxFest Northwest"
+conf_year    = "2019"
+track        = "Containerization"
+co_speaker   = "Noah Meyerhans"
+abstract = """
+Amazon Web Services recently released the Firecracker Virtual Machine Manager
+(VMM) built on top of the Linux KVM subsystem, which is optimized for
+lightweight, container-like "microVMs". This session dives deep into the
+architecture of the firecracker-containerd project, which aims to allow
+portability between standard OCI container images and the larger container
+ecosystem with Firecracker micro-VMs. Topics covered will include the standard
+containerd architecture with the reference OCI runtime (runc), challenges
+adapting containers into micro-VMs, and the firecracker-containerd suite.
+"""
+
+[[talk]]
+title       = "Linux Container Primitives"
+date        = "April 26-28, 2019"
+conference  = "LinuxFest Northwest"
+conf_year   = "2019"
+track       = "Containerization"
+abstract = """
+In this session, we'll explore the different Linux primitives that are commonly
+used in implementing container runtimes. We'll learn about the Linux primitives
+that underlie container runtimes like Docker, including cgroups, namespaces,
+and union filesystems. We'll see how Docker uses these primitives, and how the
+OCI standard makes it possible to customize how your containers run. We'll also
+discuss alternative container runtimes like CRI-O, rkt, and systemd-nspawn and
+what makes them different. This will be an interactive session with a live demo
+and open questions.
+"""
+
+[[talk]]
 title       = "Linux Container Primitives and Runtimes"
 date        = "November 26 and November 27, 2018"
 conference  = "AWS re:Invent"
