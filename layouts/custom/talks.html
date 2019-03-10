@@ -12,7 +12,19 @@
                 <h3>
 		  <strong>{{ $el.title }}</strong> ({{ $el.conference }}, {{ $el.conf_year}})
                 </h3>
-		<i>{{ $el.date }} - {{ $el.talk_id }}</i>
+		<i>
+		  {{ $el.date }}
+		  {{ with $el.talk_id }}
+		    - {{ with $el.catalog_link }}
+		        <a href="{{ $el.catalog_link }}">{{ $el.talk_id }}</a>
+		      {{ else}}
+		        {{ $el.talk_id }}
+		      {{ end }}
+		  {{ end }}
+		</i>
+		{{ with $el.co_speaker }}
+		  <i>(Presented with {{ $el.co_speaker }})</i>
+		{{ end }}
 		<div>{{ $el.abstract | markdownify }}</div>
 		<ul>
 		{{ with $el.slideshare }}
