@@ -2,7 +2,7 @@ name = "Talks"
 
 [[talk]]
 title        = "Deep Dive into firecracker-containerd"
-date         = "April 30 - May 2, 2019"
+date         = "April 30, 2019 at 12:00 PM"
 conference   = "DockerCon"
 conf_year    = "2019"
 track        = "open source"
