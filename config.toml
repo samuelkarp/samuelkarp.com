@@ -13,7 +13,7 @@ theme = "sustain"
 [params]
   avatar = "sam.jpg"
   author = "Samuel Karp"
-  description = "Describe your website"
+  description = "Personal home page for Samuel Karp"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
@@ -53,7 +53,12 @@ theme = "sustain"
   weight = 200
   url = "/talks/"
 [[menu.main]]
-  name = "blog"
-  identifier = "blog"
+  name = "tech blog"
+  identifier = "tech-blog"
   weight = 300
+  url = "https://samuel.karp.dev/blog"
+[[menu.main]]
+  name = "personal blog"
+  identifier = "personal-blog"
+  weight = 400
   url = "https://blog.samuelkarp.com"
