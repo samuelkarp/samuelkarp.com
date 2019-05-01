@@ -85,4 +85,10 @@ track       = "containers"
 talk_id     = "CON324"
 speakerdeck = "https://speakerdeck.com/samuelkarp/windows-containers-on-amazon-ecs-re-invent-2017-con324"
 abstract    = """
+Docker containers are commonly regarded as powerful and portable runtime
+environments for Linux code, but Docker also offers support for running Windows
+Server applications in containers. 
+
+In this talk, we'll discuss what containers are and why you'd use them, how they
+work on Windows, and how Windows containers compare to Linux containers.
 """
