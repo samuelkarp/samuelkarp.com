@@ -28,6 +28,7 @@ conf_year    = "2019"
 track        = "Containerization"
 co_speaker   = "Noah Meyerhans"
 speakerdeck  = "https://speakerdeck.com/samuelkarp/deep-dive-into-firecracker-containerd-linuxfest-northwest-2019"
+youtube      = "https://www.youtube.com/watch?v=C-9XDdRU-kU"
 abstract = """
 Amazon Web Services recently released the Firecracker Virtual Machine Manager
 (VMM) built on top of the Linux KVM subsystem, which is optimized for
@@ -46,6 +47,7 @@ conference  = "LinuxFest Northwest"
 conf_year   = "2019"
 track       = "Containerization"
 speakerdeck = "https://speakerdeck.com/samuelkarp/linux-container-primitives-cgroups-namespaces-and-more-linuxfest-northwest-2019"
+youtube     = "https://www.youtube.com/watch?v=Ueu8TuW-IOg"
 abstract = """
 In this session, we'll explore the different Linux primitives that are commonly
 used in implementing container runtimes. We'll learn about the Linux primitives
