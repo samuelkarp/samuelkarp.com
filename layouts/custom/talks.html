@@ -27,6 +27,9 @@
 		{{ end }}
 		<div>{{ $el.abstract | markdownify }}</div>
 		<ul>
+		{{ with $el.youtube }}
+		  <li><a href="{{ $el.youtube }}"><i class="fa fa-youtube"></i>&nbsp;&nbsp;View recording on YouTube</a></li>
+		{{ end }}
 		{{ with $el.slideshare }}
 		  <li><a href="{{ $el.slideshare }}"><i class="fa fa-slideshare"></i>&nbsp;&nbsp;View slides on Slideshare</a></li>
 		{{ end }}
