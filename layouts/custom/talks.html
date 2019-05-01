@@ -10,7 +10,7 @@
             {{ range $i, $el := .Site.Data.talks.talk }}
               <div>
                 <h3>
-		  <strong>{{ $el.title }}</strong> ({{ $el.conference }}, {{ $el.conf_year}})
+		  <strong>{{ $el.title }}</strong> ({{ $el.conference }} {{ $el.conf_year}})
                 </h3>
 		<i>
 		  {{ $el.date }}
