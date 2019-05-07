@@ -15,7 +15,7 @@
 		<i>
 		  {{ $el.date }}
 		  {{ with $el.talk_id }}
-		    - {{ with $el.catalog_link }}
+		    - Session {{ with $el.catalog_link }}
 		        <a href="{{ $el.catalog_link }}">{{ $el.talk_id }}</a>
 		      {{ else}}
 		        {{ $el.talk_id }}
@@ -36,6 +36,9 @@
 		{{ with $el.speakerdeck }}
 		  <li><a href="{{ $el.speakerdeck }}"><i class="fa fa-file-powerpoint-o"></i>&nbsp;&nbsp;View slides on SpeakerDeck</a></li>
 		{{ end}}
+		  {{ range $j, $link := $el.link }}
+		  <li><a href="{{ $link.href }}">{{ with $link.icon }}<i class="fa fa-{{ $link.icon }}"></i>&nbsp;&nbsp;{{ end }}{{ $link.title }}</a></li>
+		  {{ end}}
 		</ul>
               </div>
             {{ end }}
