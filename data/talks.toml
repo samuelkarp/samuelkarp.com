@@ -10,15 +10,20 @@ talk_id      = "281969"
 catalog_link = "https://dockercon19.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=281969"
 speakerdeck  = "https://speakerdeck.com/samuelkarp/deep-dive-into-firecracker-containerd-dockercon-2019"
 abstract = """
-Amazon recently released the Firecracker Virtual Machine Manager (VMM) built on
-top of the Linux KVM subsystem, which is optimized for lightweight,
-container-like "micro"-VMs. This session dives deep into the architecture of
-the firecracker-containerd project, which aims to allow portability between
-standard OCI container images and the larger container ecosystem with
-Firecracker micro-VMs. Topics covered will include the standard containerd
-architecture with the reference OCI runtime (runc), challenges adapting
-containers into micro-VMs, and the firecracker-containerd suite.
+Amazon Web Services recently released the Firecracker Virtual Machine Monitor
+(VMM) built on top of the Linux KVM subsystem, which is optimized for
+lightweight, container-like "microVMs". This session dives deep into the
+architecture of the firecracker-containerd project, which aims to allow
+portability between standard OCI container images and the larger container
+ecosystem with Firecracker microVMs. Topics covered will include the standard
+containerd architecture with the reference OCI runtime (runc), challenges
+adapting containers into microVMs, and the firecracker-containerd suite.
 """
+[[talk.link]]
+title = "View recording on Docker.com"
+icon  = "play-circle"
+href  = "https://www.docker.com/dockercon/2019-videos?watch=deep-dive-into-firecracker-containerd"
+
 
 [[talk]]
 title        = "Deep Dive into firecracker-containerd"
@@ -30,14 +35,14 @@ co_speaker   = "Noah Meyerhans"
 speakerdeck  = "https://speakerdeck.com/samuelkarp/deep-dive-into-firecracker-containerd-linuxfest-northwest-2019"
 youtube      = "https://www.youtube.com/watch?v=C-9XDdRU-kU"
 abstract = """
-Amazon Web Services recently released the Firecracker Virtual Machine Manager
+Amazon Web Services recently released the Firecracker Virtual Machine Monitor
 (VMM) built on top of the Linux KVM subsystem, which is optimized for
 lightweight, container-like "microVMs". This session dives deep into the
 architecture of the firecracker-containerd project, which aims to allow
 portability between standard OCI container images and the larger container
-ecosystem with Firecracker micro-VMs. Topics covered will include the standard
+ecosystem with Firecracker microVMs. Topics covered will include the standard
 containerd architecture with the reference OCI runtime (runc), challenges
-adapting containers into micro-VMs, and the firecracker-containerd suite.
+adapting containers into microVMs, and the firecracker-containerd suite.
 """
 
 [[talk]]
