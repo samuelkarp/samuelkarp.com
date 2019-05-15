@@ -9,6 +9,7 @@ track        = "open source"
 talk_id      = "281969"
 catalog_link = "https://dockercon19.smarteventscloud.com/connect/sessionDetail.ww?SESSION_ID=281969"
 speakerdeck  = "https://speakerdeck.com/samuelkarp/deep-dive-into-firecracker-containerd-dockercon-2019"
+youtube      = "https://www.youtube.com/watch?v=0wEiizErKZw"
 abstract = """
 Amazon Web Services recently released the Firecracker Virtual Machine Monitor
 (VMM) built on top of the Linux KVM subsystem, which is optimized for
