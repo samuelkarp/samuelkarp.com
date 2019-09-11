@@ -1,6 +1,27 @@
 name = "Talks"
 
 [[talk]]
+title        = "Extending containerd"
+date         = "November 19, 2019 at 4:25 PM"
+conference   = "KubeCon + CloudNativeCon North America"
+conf_year    = "2019"
+track        = "Runtimes"
+co_speaker   = "Maksym Pavlenko"
+catalog_link = "https://kccncna19.sched.com/event/a62aa4ea00415ddc40e1d6a491c1524f"
+abstract = """
+containerd, a graduated CNCF project, is a widely used container runtime that
+provides core functionality for Docker. containerd was designed to be small and
+simple, but also very modular and extensible. This talk covers the architecture
+of containerd, explains the responsibilities of each component, and dives deep
+into containerd’s facility for extension. We’ll cover the individual gRPC
+services that make up containerd and show how they can be extended with proxy
+plugins, Go plugins, process interfaces (OCI runtimes and process-based
+logging), thick client implementations, and build-your-own containerd for
+compiled-in extension. These extension mechanisms can be shown with simple
+examples and real-world use in the firecracker-containerd project.
+"""
+
+[[talk]]
 title        = "Deep Dive into firecracker-containerd"
 date         = "April 30, 2019 at 12:00 PM"
 conference   = "DockerCon"
