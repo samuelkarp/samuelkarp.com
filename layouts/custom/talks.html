@@ -14,17 +14,21 @@
                 </h3>
 		<i>
 		  {{ $el.date }}
+		  {{ with $el.co_speaker }}
+		    (Presented with {{ $el.co_speaker }})
+		  {{ end }}
 		  {{ with $el.talk_id }}
 		    - Session {{ with $el.catalog_link }}
 		        <a href="{{ $el.catalog_link }}">{{ $el.talk_id }}</a>
 		      {{ else}}
 		        {{ $el.talk_id }}
 		      {{ end }}
+		  {{ else }} 
+		    {{ with $el.catalog_link }}
+                      - <a href="{{ $el.catalog_link }}">View in catalog</a>
+		    {{ end }}
 		  {{ end }}
 		</i>
-		{{ with $el.co_speaker }}
-		  <i>(Presented with {{ $el.co_speaker }})</i>
-		{{ end }}
 		<div>{{ $el.abstract | markdownify }}</div>
 		<ul>
 		{{ with $el.youtube }}
