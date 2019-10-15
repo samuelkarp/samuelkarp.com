@@ -1,6 +1,25 @@
 name = "Talks"
 
 [[talk]]
+title        = "Deep Dive into firecracker-containerd"
+date         = "December 2, 2019 at 12:15 PM and December 3, 2019 at 4:45 PM"
+conference   = "AWS re:Invent"
+conf_year    = "2019"
+track        = "containers"
+talk_id      = "CON408"
+catalog_link = "https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=98138"
+abstract     = """
+Last year, we released the Firecracker virtual machine monitor (VMM) built on
+top of the Linux KVM subsystem, which is optimized for lightweight,
+container-like “microVMs.” In this session, we dive deep into the
+architecture of the firecracker-containerd project, which aims to allow
+portability between standard OCI container images and the larger container
+ecosystem with Firecracker microVMs. Topics covered include the standard
+containerd architecture with the reference OCI runtime (runc), challenges
+adapting containers into microVMs, and the firecracker-containerd suite.
+"""
+
+[[talk]]
 title        = "Extending containerd"
 date         = "November 19, 2019 at 4:25 PM"
 conference   = "KubeCon + CloudNativeCon North America"
