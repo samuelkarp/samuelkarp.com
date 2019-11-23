@@ -28,6 +28,7 @@ track        = "Runtimes"
 co_speaker   = "Maksym Pavlenko"
 catalog_link = "https://kccncna19.sched.com/event/a62aa4ea00415ddc40e1d6a491c1524f"
 speakerdeck  = "https://speakerdeck.com/samuelkarp/cloudnativecon-na-2019"
+youtube      = "https://www.youtube.com/watch?v=9avPJL9Zqso"
 abstract = """
 containerd, a graduated CNCF project, is a widely used container runtime that
 provides core functionality for Docker. containerd was designed to be small and
