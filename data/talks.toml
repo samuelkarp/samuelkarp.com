@@ -8,6 +8,7 @@ conf_year    = "2019"
 track        = "containers"
 talk_id      = "CON408"
 catalog_link = "https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=98138"
+speakerdeck  = "https://speakerdeck.com/samuelkarp/deep-dive-into-firecracker-containerd-re-invent-2019-con408"
 abstract     = """
 Last year, we released the Firecracker virtual machine monitor (VMM) built on
 top of the Linux KVM subsystem, which is optimized for lightweight,
