@@ -19,6 +19,10 @@ ecosystem with Firecracker microVMs. Topics covered include the standard
 containerd architecture with the reference OCI runtime (runc), challenges
 adapting containers into microVMs, and the firecracker-containerd suite.
 """
+[[talk.link]]
+title = "View demo script"
+icon = "github"
+href = "https://github.com/samuelkarp/firecracker-containerd-demo-ami/blob/master/reinvent.sh"
 
 [[talk]]
 title        = "Extending containerd"
@@ -42,6 +46,10 @@ logging), thick client implementations, and build-your-own containerd for
 compiled-in extension. These extension mechanisms can be shown with simple
 examples and real-world use in the firecracker-containerd project.
 """
+[[talk.link]]
+title = "View demo script"
+icon = "github"
+href = "https://github.com/samuelkarp/firecracker-containerd-demo-ami/blob/master/kubecon.sh"
 
 [[talk]]
 title        = "Deep Dive into firecracker-containerd"
