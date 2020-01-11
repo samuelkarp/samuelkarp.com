@@ -1,6 +1,25 @@
 name = "Talks"
 
 [[talk]]
+title        = "Extending containerd"
+date         = "March 5-8, 2020"
+conference   = "SCALE"
+conf_year    = "18x"
+catalog_link = "https://www.socallinuxexpo.org/scale/18x/presentations/extending-containerd"
+abstract     = """
+containerd, a graduated CNCF project, is a widely used container runtime that
+provides core functionality for Docker. containerd was designed to be small and
+simple, but also very modular and extensible. This talk covers the architecture
+of containerd, explains the responsibilities of each component, and dives deep
+into containerd’s facility for extension. We’ll cover the individual gRPC
+services that make up containerd and show how they can be extended with proxy
+plugins, Go plugins, process interfaces (OCI runtimes and process-based
+logging), thick client implementations, and build-your-own containerd for
+compiled-in extension. These extension mechanisms can be shown with simple
+examples and real-world use in the firecracker-containerd project.
+"""
+
+[[talk]]
 title        = "Deep Dive into firecracker-containerd"
 date         = "December 2, 2019 at 12:15 PM and December 3, 2019 at 4:45 PM"
 conference   = "AWS re:Invent"
