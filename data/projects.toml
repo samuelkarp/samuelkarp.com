@@ -95,13 +95,15 @@ Docker container images.
 [[source]]
 icon        = "fa fa-github"
 name        = "Amazon ECR containerd resolver"
-website     = "https://github.com/samuelkarp/amazon-ecr-containerd-resolver"
+website     = "https://github.com/awslabs/amazon-ecr-containerd-resolver"
 role        = "author"
 description = """
 containerd makes pulling images more flexible, since images are pulled in
 client software rather than by the containerd daemon. The Amazon ECR containerd
 resolver is a library that can be used by software integrating with containerd
-to pull images from Amazon ECR using the native API.
+to pull images from Amazon ECR using the native API. This resolver has the
+capability to perform multi-part downloads of layers, which improves the
+transfer time for images.
 """
 
 [[source]]
