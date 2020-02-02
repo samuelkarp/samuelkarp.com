@@ -1,8 +1,27 @@
 name = "Talks"
 
 [[talk]]
+title        = "Linux Container Primitives"
+date         = "April 24-26, 2020"
+conference   = "LinuxFest Northwest"
+conf_year    = "2020"
+catalog_link = "https://www.linuxfestnorthwest.org/conferences/2020/program/proposals/358"
+abstract     = """
+In this session, we’ll explore the different Linux primitives that are
+commonly used in implementing container runtimes. We’ll learn about the Linux
+primitives that underlie container runtimes like Docker, including cgroups,
+namespaces, and union filesystems. We’ll see how Docker uses these
+primitives, and how the OCI standard makes it possible to customize how your
+containers run. We’ll also discuss alternative container runtimes like CRI-O,
+rkt, and systemd-nspawn and what makes them different. This will be an
+interactive session with a live demo and open questions.
+
+This session is a repeat of the session from last year.
+"""
+
+[[talk]]
 title        = "Extending containerd"
-date         = "March 5-8, 2020"
+date         = "March 6, 2020 at 2:00 PM"
 conference   = "SCALE"
 conf_year    = "18x"
 catalog_link = "https://www.socallinuxexpo.org/scale/18x/presentations/extending-containerd"
