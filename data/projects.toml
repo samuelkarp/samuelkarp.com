@@ -6,7 +6,7 @@ name        = "firecracker-containerd"
 website     = "https://github.com/firecracker-microvm/firecracker-containerd"
 role        = "maintainer"
 description = """
-The [Firecrakcer VMM](https://firecracker-microvm.github.io/) is a virtual
+The [Firecracker VMM](https://firecracker-microvm.github.io/) is a virtual
 machine manager optimized for container-like virtual machines (termed
 "microVMs") with fast startup, a limited device model, and fixed lifetimes.
 
