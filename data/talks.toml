@@ -25,6 +25,7 @@ date         = "March 6, 2020 at 2:00 PM"
 conference   = "SCALE"
 conf_year    = "18x"
 catalog_link = "https://www.socallinuxexpo.org/scale/18x/presentations/extending-containerd"
+speakerdeck  = "https://speakerdeck.com/samuelkarp/extending-containerd-scale-18x"
 abstract     = """
 containerd, a graduated CNCF project, is a widely used container runtime that
 provides core functionality for Docker. containerd was designed to be small and
@@ -37,6 +38,10 @@ logging), thick client implementations, and build-your-own containerd for
 compiled-in extension. These extension mechanisms can be shown with simple
 examples and real-world use in the firecracker-containerd project.
 """
+[[talk.link]]
+title = "View demo script"
+icon = "github"
+href = "https://github.com/samuelkarp/firecracker-containerd-demo-ami/blob/master/scale.sh"
 
 [[talk]]
 title        = "Deep Dive into firecracker-containerd"
