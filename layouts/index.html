@@ -2,15 +2,21 @@
   <body>
     <div id="wrap">
       {{ partial "header" . }}
-      <section id="about">
+      <section class="h-card" id="about">
         <div class="container">
-        <div class="avatar">
-          <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
-        </div>
-	<h1><strong>{{ .Site.Params.author }}</strong></h1>
-	<h3>{{ .Site.Params.Bio.Title }} at <a href="{{ .Site.Params.Bio.Company.Website }}">{{ .Site.Params.Bio.Company.Name }}</a>
-	    working on <a href="{{ .Site.Params.Bio.Product.Website }}">{{ .Site.Params.Bio.Product.Name }}</a>.</h3>
-	<h3>Contact me at <a href="http://twitter.com/{{ .Site.Params.Social.Twitter }}">@{{ .Site.Params.Social.Twitter }}</a> or on <a href="https://linkedin.com/in/{{ .Site.Params.Social.LinkedIn }}">LinkedIn</a>.</h3>
+          <div class="avatar">
+            <img class="img-circle u-photo" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Avatar for {{ .Site.Params.author }}">
+          </div>
+          <h1 class="p-name"><strong><a href="{{ .Site.BaseURL }}" class="u-url u-uid">{{ .Site.Params.author }}</a></strong></h1>
+          <h3 class="p-note">
+            {{ .Site.Params.Bio.Title }} at <a href="{{ .Site.Params.Bio.Company.Website }}">{{ .Site.Params.Bio.Company.Name }}</a>
+            {{- with .Site.Params.Bio.Product }}
+              working on {{ with index . "website" }}<a href="{{ . }}">{{ end }}{{ index . "name" }}{{ with index . "website" }}</a>{{ end }}
+            {{ end }}.
+          </h3>
+          <h3>
+            Contact me at <a href="http://twitter.com/{{ .Site.Params.Social.Twitter }}" class="u-url" rel="me">@{{ .Site.Params.Social.Twitter }}</a> or on <a href="https://linkedin.com/in/{{ .Site.Params.Social.LinkedIn }}" class="u-url" rel="me">LinkedIn</a>.
+          </h3>
         {{ partial "social.html" . }}
         </div>
       </section>
