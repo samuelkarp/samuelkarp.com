@@ -29,12 +29,12 @@ theme = "sustain"
   Title    = "Senior Software Development Engineer"
   Location = "Seattle, WA"
 [params.bio.company]
-  Name    = "Amazon Web Services, Inc."
+  Name    = "Amazon Web Services"
   Website = "https://aws.amazon.com"
 
 [params.bio.product]
-  Name    = "Amazon Elastic Container Service"
-  Website = "https://ecs.aws"
+  Name    = "containers, microVMs, and Linux"
+  Website = "https://aws.amazon.com/containers"
 
 ## Main Menu
 [[menu.main]]
