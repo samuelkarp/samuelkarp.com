@@ -12,7 +12,7 @@
             {{ .Site.Params.Bio.Title }} at <a href="{{ .Site.Params.Bio.Company.Website }}">{{ .Site.Params.Bio.Company.Name }}</a>
             {{- with .Site.Params.Bio.Product }}
               working on {{ with index . "website" }}<a href="{{ . }}">{{ end }}{{ index . "name" }}{{ with index . "website" }}</a>{{ end }}
-            {{ end }}.
+            {{- end }}.
           </h3>
           <h3>
             Contact me at <a href="http://twitter.com/{{ .Site.Params.Social.Twitter }}" class="u-url" rel="me">@{{ .Site.Params.Social.Twitter }}</a> or on <a href="https://linkedin.com/in/{{ .Site.Params.Social.LinkedIn }}" class="u-url" rel="me">LinkedIn</a>.
