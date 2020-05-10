@@ -2,10 +2,12 @@ name = "Talks"
 
 [[talk]]
 title        = "Linux Container Primitives"
-date         = "April 24-26, 2020"
+date         = "Online"
 conference   = "LinuxFest Northwest"
 conf_year    = "2020"
 catalog_link = "https://www.linuxfestnorthwest.org/conferences/2020/program/proposals/358"
+speakerdeck  = "https://speakerdeck.com/samuelkarp/linux-container-primitives-cgroups-namespaces-and-more-linuxfest-northwest-2020"
+youtube      = "https://www.youtube.com/watch?v=x1npPrzyKfs"
 abstract     = """
 In this session, we’ll explore the different Linux primitives that are
 commonly used in implementing container runtimes. We’ll learn about the Linux
@@ -26,6 +28,7 @@ conference   = "SCALE"
 conf_year    = "18x"
 catalog_link = "https://www.socallinuxexpo.org/scale/18x/presentations/extending-containerd"
 speakerdeck  = "https://speakerdeck.com/samuelkarp/extending-containerd-scale-18x"
+youtube      = "https://www.youtube.com/watch?v=zI2kZwZYXyY"
 abstract     = """
 containerd, a graduated CNCF project, is a widely used container runtime that
 provides core functionality for Docker. containerd was designed to be small and
@@ -189,7 +192,7 @@ speakerdeck = "https://speakerdeck.com/samuelkarp/windows-containers-on-amazon-e
 abstract    = """
 Docker containers are commonly regarded as powerful and portable runtime
 environments for Linux code, but Docker also offers support for running Windows
-Server applications in containers. 
+Server applications in containers.
 
 In this talk, we'll discuss what containers are and why you'd use them, how they
 work on Windows, and how Windows containers compare to Linux containers.
