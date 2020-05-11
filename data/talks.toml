@@ -20,6 +20,11 @@ interactive session with a live demo and open questions.
 
 This session is a repeat of the session from last year.
 """
+[[talk.link]]
+title = "Online Q&A"
+icon = "comments"
+href = "https://discuss.lfnw.org/t/linux-container-primitives/177"
+
 
 [[talk]]
 title        = "Extending containerd"
