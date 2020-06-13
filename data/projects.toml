@@ -2,6 +2,20 @@ name = "Projects"
 
 [[source]]
 icon        = "fa fa-github"
+name        = "Bottlerocket"
+website     = "https://github.com/bottlerocket-os/bottlerocket"
+role        = "maintainer"
+description = """
+Bottlerocket is a free and open-source Linux-based operating system meant for
+hosting containers.  Bottlerocket focuses on security and maintainability,
+providing a reliable, consistent, and safe platform for container-based
+workloads.  The base operating system has just what you need to run containers
+reliably, and is built with standard open-source components.
+Bottlerocket-specific additions focus on reliable updates and on the API.
+"""
+
+[[source]]
+icon        = "fa fa-github"
 name        = "firecracker-containerd"
 website     = "https://github.com/firecracker-microvm/firecracker-containerd"
 role        = "maintainer"
