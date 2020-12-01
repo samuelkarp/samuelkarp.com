@@ -16,6 +16,26 @@ Bottlerocket-specific additions focus on reliable updates and on the API.
 
 [[source]]
 icon        = "fa fa-github"
+name        = "containerd"
+website     = "https://github.com/containerd/containerd"
+role        = "security advisor"
+description = """
+containerd is an industry-standard container runtime and a project of the Cloud
+Native Computing Foundation.  containerd provides an intentionally-limited and
+focused set of functionality with an extensible architecture.
+
+As a Security Advisor with the containerd project, I help triage incoming
+security reports with industry-informed experience, contribute to fixes and
+backports, assist with testing, and organize coordinated disclosures under
+embargo.
+
+Read more about [security
+advisors](https://github.com/containerd/project/blob/master/GOVERNANCE.md#security-advisors)
+and check out containerd's [security advisories](https://github.com/containerd/containerd/security/advisories).
+"""
+
+[[source]]
+icon        = "fa fa-github"
 name        = "firecracker-containerd"
 website     = "https://github.com/firecracker-microvm/firecracker-containerd"
 role        = "former maintainer"
@@ -78,20 +98,6 @@ I contributed the
 [Amazon CloudWatch Logs driver](https://docs.docker.com/engine/admin/logging/awslogs/),
 which helps send container output to CloudWatch Logs. I help maintain the
 driver on an ongoing basis.
-"""
-
-[[source]]
-icon        = "fa fa-github"
-name        = "containerd"
-website     = "https://github.com/containerd/containerd"
-role        = "contributor"
-description = """
-containerd is a container runtime built by the core maintainers of Docker and
-represents a rewrite of the core runtime components.  containerd provides a
-limited set of functionality in a much more flexible manner compared to Docker.
-
-I have prototyped integration between the Amazon ECS Container Agent and and
-containerd and have contributed minor code to containerd.
 """
 
 [[source]]
