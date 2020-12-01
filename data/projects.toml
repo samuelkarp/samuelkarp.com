@@ -18,7 +18,7 @@ Bottlerocket-specific additions focus on reliable updates and on the API.
 icon        = "fa fa-github"
 name        = "firecracker-containerd"
 website     = "https://github.com/firecracker-microvm/firecracker-containerd"
-role        = "maintainer"
+role        = "former maintainer"
 description = """
 The [Firecracker VMM](https://firecracker-microvm.github.io/) is a virtual
 machine manager optimized for container-like virtual machines (termed
@@ -33,7 +33,7 @@ ecosystem tools and conventions.
 icon        = "fa fa-github"
 name        = "Firecracker SDK for Go"
 website     = "https://github.com/firecracker-microvm/firecracker-go-sdk"
-role        = "maintainer"
+role        = "former maintainer"
 description = """
 The Firecracker SDK for Go is an SDK for interacting with the
 [Firecracker VMM](https://firecracker-microvm.github.io/) API from the Go
@@ -46,7 +46,7 @@ flexibility to override when necessary.
 icon        = "fa fa-github"
 name        = "firectl"
 website     = "https://github.com/firecracker-microvm/firectl"
-role        = "maintainer"
+role        = "former maintainer"
 description = """
 firectl is a simple command-line interface for interacting with the
 [Firecracker VMM](https://firecracker-microvm.github.io) to create and run
@@ -57,7 +57,7 @@ virtual machines without having to directly interact with the API.
 icon        = "fa fa-github"
 name        = "Amazon ECS Container Agent"
 website     = "https://github.com/aws/amazon-ecs-agent"
-role        = "maintainer emeritus"
+role        = "former maintainer"
 description = """
 The Amazon ECS Container Agent is the on-host component of Amazon Elastic
 Container Service.  The agent is responsible for interfacing between the
