@@ -8,26 +8,37 @@ from        = "November 2017"
 until       = "Present"
 location    = "Seattle, WA"
 description = """
-Senior Software Development Engineer helping build Amazon Elastic Container
-Service, Amazon Elastic Container Service for Kubernetes, Amazon Elastic
-Container Registry, and AWS Fargate.  Primarily focused on the container
-runtime layer and associated technologies for configuring, running, and
-managing containers as well as storage and distribution of container images.
-Currently working on integrating container technology with virtual machine
-technology provided by the
-[Firecracker VMM](https://firecracker-microvm.github.io/).
+Senior Software Development Engineer helping build
+[Bottlerocket](https://aws.amazon.com/bottlerocket) (a container-focused Linux
+operating system with an emphasis on security and maintainability) and other
+core container infrastructure used across [Amazon
+Linux](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-linux-ami-basics.html),
+[Amazon Elastic Container Service (ECS)](https://aws.amazon.com/ecs),
+[Amazon Elastic Container Service for Kubernetes (EKS)](https://aws.amazon.com/eks),
+[Amazon Elastic Container Registry (ECR)](https://aws.amazon.com/ecr), and
+[AWS Fargate](https://aws.amazon.com/fargate).
 
-Previously focused on Amazon Elastic Container Service, Amazon Web Service's
-cluster management service for Linux and Windows containers.  Was responsible
-for a variety of software that ran on customer-owned EC2 instances, including
-the ECS agent, Docker, ecs-init, and the ECS-optimized Amazon Linux AMI.  Led
-the engineering design and technical work to port the ECS agent to Windows and
-enable customers to use Windows Server containers with Amazon ECS.
+Led design to integrate container technology with virtual machine technology
+provided by the [Firecracker VMM](https://firecracker-microvm.github.io/) with
+a focus on serverless compute offerings like AWS Fargate.
 
-Active maintainer of ECS open-source projects.  Contributor upstream to several
-non-Amazon open-source projects, including Docker, containerd, go-dockerclient,
-container-storage-setup, and container-transform.  Wrote the CloudWatch Logs
-logging driver for Docker and the Amazon ECR Docker Credential Helper.
+Previously focused on Amazon ECS, Amazon Web Service's cluster management
+service for Linux and Windows containers.  Was responsible for software that ran
+on customer-owned EC2 instances, including the ECS agent, Docker, ecs-init, and
+the ECS-optimized Amazon Linux AMI.  Led the engineering design and technical
+work to port the ECS agent to Windows and enable customers to use Windows Server
+containers with Amazon ECS.
+
+Active maintainer of AWS open-source projects.  Member of the Technical
+Oversight Board for the [Open Container Initiative](https://opencontainers.org),
+an industry standards-setting group for containers.  Security advisor to the
+[containerd](https://containerd.io) project.  Contributor to non-Amazon
+open-source projects, including Docker, containerd, go-dockerclient,
+container-storage-setup, and container-transform.  Wrote the [CloudWatch Logs
+logging driver for
+Docker](https://docs.docker.com/config/containers/logging/awslogs/) and the
+[Amazon ECR Docker Credential
+Helper](https://github.com/awslabs/amazon-ecr-credential-helper).
 """
 
 [[source]]
