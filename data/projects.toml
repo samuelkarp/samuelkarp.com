@@ -1,6 +1,29 @@
 name = "Projects"
 
 [[source]]
+icon        = "fa fa-server"
+name        = "Open Container Initiative"
+website     = "https://opencontainers.org/"
+role        = "technical oversight board"
+description = """
+The Open Container Initiative is an open governance structure for the express
+purpose of creating open industry standards around container formats and
+runtimes.
+
+Established in June 2015 by Docker and other leaders in the container industry,
+the OCI currently contains three specifications: the Runtime Specification
+(runtime-spec), the Image Specification (image-spec), and the Distribution
+Specification (distribution-spec).
+
+The Technical Oversight Board (TOB) is responsible for managing conflicts,
+violations of procedures or guidelines and any cross-project or high-level
+issues that cannot be resolved in the Technical Developer Community for OCI
+Projects. The TOB is also be responsible for adding, removing or reorganizing
+OCI Projects.
+"""
+
+
+[[source]]
 icon        = "fa fa-github"
 name        = "Bottlerocket"
 website     = "https://github.com/bottlerocket-os/bottlerocket"
