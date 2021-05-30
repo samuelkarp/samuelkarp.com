@@ -22,7 +22,6 @@ Projects. The TOB is also be responsible for adding, removing or reorganizing
 OCI Projects.
 """
 
-
 [[source]]
 icon        = "fa fa-github"
 name        = "Bottlerocket"
@@ -41,7 +40,7 @@ Bottlerocket-specific additions focus on reliable updates and on the API.
 icon        = "fa fa-github"
 name        = "containerd"
 website     = "https://github.com/containerd/containerd"
-role        = "security advisor"
+role        = "maintainer & security advisor"
 description = """
 containerd is an industry-standard container runtime and a project of the Cloud
 Native Computing Foundation.  containerd provides an intentionally-limited and
@@ -55,6 +54,24 @@ embargo.
 Read more about [security
 advisors](https://github.com/containerd/project/blob/master/GOVERNANCE.md#security-advisors)
 and check out containerd's [security advisories](https://github.com/containerd/containerd/security/advisories).
+"""
+
+[[source]]
+icon        = "fa fa-github"
+name        = "Docker / Moby"
+website     = "https://github.com/moby/moby"
+role        = "maintainer"
+description = """
+Docker popularized Linux containers and remains the most popular development
+environment for container-driven workloads. Docker helps people run applications
+in an image-based, isolated fashion.
+
+The Moby project was spun off from the main Docker runtime in 2017 and now
+houses the core open-source components for Docker.
+
+My first large contribution to Docker / Moby was the
+[Amazon CloudWatch Logs driver](https://docs.docker.com/engine/admin/logging/awslogs/),
+which helps send container output to CloudWatch Logs.
 """
 
 [[source]]
@@ -105,22 +122,6 @@ description = """
 The Amazon ECS Container Agent is the on-host component of Amazon Elastic
 Container Service.  The agent is responsible for interfacing between the
 container runtime and the Amazon ECS backend.
-"""
-
-[[source]]
-icon        = "fa fa-github"
-name        = "Docker"
-website     = "https://github.com/moby/moby"
-role        = "contributor"
-description = """
-Docker popularized Linux containers and is now probably the most popular
-container runtime. Docker helps people run applications in an image-based,
-isolated fashion.
-
-I contributed the
-[Amazon CloudWatch Logs driver](https://docs.docker.com/engine/admin/logging/awslogs/),
-which helps send container output to CloudWatch Logs. I help maintain the
-driver on an ongoing basis.
 """
 
 [[source]]
