@@ -1,6 +1,41 @@
 name = "Talks"
 
 [[talk]]
+title        = "Keeping your host operating system secure with Bottlerocket"
+date         = "December 3, 2021 at 9:15 AM"
+conference   = "AWS re:Invent"
+conf_year    = "2021"
+co_speaker   = "Vaishnavi Venkatesan"
+talk_id      = "CON320"
+abstract     = """
+Bottlerocket is an open-source, minimal, Linux-based, container-optimized
+operating system that is purpose built to host container workloads. It only
+includes tools needed to run containers, significantly reducing the attack
+surface and impact of vulnerabilities. This chalk talk demonstrates many aspects
+of Bottlerocket, including how you can restrict container privileges and limit
+access to host-level entities, such as sockets and block devices. Learn how
+Bottlerocket blocks configurations that are designed to exploit vulnerabilities,
+keeping your host operating system secure.
+"""
+
+
+[[talk]]
+title        = "Getting started as a Bottlerocket contributor"
+date         = "November 30, 2021 at 11:45 AM"
+conference   = "AWS re:Invent"
+conf_year    = "2021"
+co_speaker   = "Curtis Rissi"
+talk_id      = "OPN206"
+abstract     = """
+Bottlerocket is a minimal, secure, Linux-based, container-optimized operating
+system. It is an open-source system, and its developers love collaborating with
+their contributors. In this chalk talk, explore how you can start contributing
+to Bottlerocket, learn how you can use developer tooling to build and test a
+potential contribution, and hear some examples of developer interactions with
+contributors.
+"""
+
+[[talk]]
 title        = "Linux Container Primitives"
 date         = "Online"
 conference   = "LinuxFest Northwest"
