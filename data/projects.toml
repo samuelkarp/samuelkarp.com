@@ -4,7 +4,7 @@ name = "Projects"
 icon        = "fa fa-server"
 name        = "Open Container Initiative"
 website     = "https://opencontainers.org/"
-role        = "technical oversight board"
+role        = "chair of the technical oversight board"
 description = """
 The Open Container Initiative is an open governance structure for the express
 purpose of creating open industry standards around container formats and
@@ -20,20 +20,6 @@ violations of procedures or guidelines and any cross-project or high-level
 issues that cannot be resolved in the Technical Developer Community for OCI
 Projects. The TOB is also be responsible for adding, removing or reorganizing
 OCI Projects.
-"""
-
-[[source]]
-icon        = "fa fa-github"
-name        = "Bottlerocket"
-website     = "https://github.com/bottlerocket-os/bottlerocket"
-role        = "maintainer"
-description = """
-Bottlerocket is a free and open-source Linux-based operating system meant for
-hosting containers.  Bottlerocket focuses on security and maintainability,
-providing a reliable, consistent, and safe platform for container-based
-workloads.  The base operating system has just what you need to run containers
-reliably, and is built with standard open-source components.
-Bottlerocket-specific additions focus on reliable updates and on the API.
 """
 
 [[source]]
@@ -88,9 +74,24 @@ jails.
 
 [[source]]
 icon        = "fa fa-github"
+name        = "Bottlerocket"
+website     = "https://github.com/bottlerocket-os/bottlerocket"
+role        = "former maintainer, no longer involved"
+description = """
+Bottlerocket is a free and open-source Linux-based operating system meant for
+hosting containers.  Bottlerocket focuses on security and maintainability,
+providing a reliable, consistent, and safe platform for container-based
+workloads.  The base operating system has just what you need to run containers
+reliably, and is built with standard open-source components.
+Bottlerocket-specific additions focus on reliable updates and on the API.
+"""
+
+
+[[source]]
+icon        = "fa fa-github"
 name        = "firecracker-containerd"
 website     = "https://github.com/firecracker-microvm/firecracker-containerd"
-role        = "former maintainer"
+role        = "former maintainer, no longer involved"
 description = """
 The [Firecracker VMM](https://firecracker-microvm.github.io/) is a virtual
 machine manager optimized for container-like virtual machines (termed
@@ -105,7 +106,7 @@ ecosystem tools and conventions.
 icon        = "fa fa-github"
 name        = "Firecracker SDK for Go"
 website     = "https://github.com/firecracker-microvm/firecracker-go-sdk"
-role        = "former maintainer"
+role        = "former maintainer, no longer involved"
 description = """
 The Firecracker SDK for Go is an SDK for interacting with the
 [Firecracker VMM](https://firecracker-microvm.github.io/) API from the Go
@@ -118,7 +119,7 @@ flexibility to override when necessary.
 icon        = "fa fa-github"
 name        = "firectl"
 website     = "https://github.com/firecracker-microvm/firectl"
-role        = "former maintainer"
+role        = "former maintainer, no longer involved"
 description = """
 firectl is a simple command-line interface for interacting with the
 [Firecracker VMM](https://firecracker-microvm.github.io) to create and run
@@ -129,7 +130,7 @@ virtual machines without having to directly interact with the API.
 icon        = "fa fa-github"
 name        = "Amazon ECS Container Agent"
 website     = "https://github.com/aws/amazon-ecs-agent"
-role        = "former maintainer"
+role        = "former maintainer, no longer involved"
 description = """
 The Amazon ECS Container Agent is the on-host component of Amazon Elastic
 Container Service.  The agent is responsible for interfacing between the
@@ -140,7 +141,7 @@ container runtime and the Amazon ECS backend.
 icon        = "fa fa-github"
 name        = "Amazon ECR Credential Helper"
 website     = "https://github.com/awslabs/amazon-ecr-credential-helper"
-role        = "author"
+role        = "original author, no longer involved"
 description = """
 The Amazon ECR Credential Helper is a
 [Docker credential helper](https://github.com/docker/docker-credential-helpers)
@@ -152,7 +153,7 @@ Docker container images.
 icon        = "fa fa-github"
 name        = "Amazon ECR containerd resolver"
 website     = "https://github.com/awslabs/amazon-ecr-containerd-resolver"
-role        = "author"
+role        = "original author, no longer involved"
 description = """
 containerd makes pulling images more flexible, since images are pulled in
 client software rather than by the containerd daemon. The Amazon ECR containerd

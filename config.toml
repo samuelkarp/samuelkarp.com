@@ -26,15 +26,11 @@ theme = "sustain"
   Stackoverflow = "users/112821/samuel-karp"
 
 [params.bio]
-  Title    = "Senior Software Development Engineer"
+  Title    = "Chair of the Technical Oversight Board"
   Location = "Seattle, WA"
 [params.bio.company]
-  Name    = "Amazon Web Services"
-  Website = "https://aws.amazon.com"
-
-[params.bio.product]
-  Name    = "containers, microVMs, and Linux"
-  Website = "https://aws.amazon.com/containers"
+  Name    = "Open Container Initiative"
+  Website = "https://opencontainers.org"
 
 ## Main Menu
 [[menu.main]]
