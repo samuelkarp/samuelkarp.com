@@ -4,7 +4,7 @@ title = "Samuel Karp - samuelkarp.com"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = "UA-40180608-1"
+googleAnalytics = "G-FWK2ZT5BNK"
 theme = "sustain"
 
 [permalinks]
