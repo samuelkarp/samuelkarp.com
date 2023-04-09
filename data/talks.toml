@@ -1,6 +1,29 @@
 name = "Talks"
 
 [[talk]]
+title = "containerd: Project Update and Deep Dive"
+date = "April 20, 2023 at 5:25 PM"
+conference = "KubeCon + CloudNativeCon Europe"
+conf_year = "2023"
+co_speaker = "Maksym Pavlenko"
+catalog_link = "https://kccnceu2023.sched.com/event/1HyUG/containerd-project-update-and-deep-dive-maksym-pavlenko-apple-samuel-karp-google"
+abstract = """
+Join containerd maintainers for an introduction and deep dive into the latest
+updates on containerd. For Kubernetes users, we will cover how to get started
+and configure containerd. We'll then dive into the exciting work going on in
+the containerd ecosystem. In 1.7, exciting new experimental features like the
+Sandbox API bring the ability to better-model non-traditional runtime
+environments while the Transfer Service builds a new model of extensibility
+for image operations. 2.0 is around the corner, and will bring stability to
+the new features and form a strong base for long-term maintenance through the
+removal of deprecated functionality. The ecosystem is vibrant and expanding,
+with subprojects of containerd (nerdctl, wasm, some snapshotters) and as
+vendor- or community-driven projects for image streaming, developer experience,
+and new OS platforms. Rust has made its appearance in the containerd ecosystem
+too, with a new non-core library to build Rust-based shims. 
+"""
+
+[[talk]]
 title        = "Keeping your host operating system secure with Bottlerocket"
 date         = "December 3, 2021 at 9:15 AM"
 conference   = "AWS re:Invent"
