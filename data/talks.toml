@@ -1,13 +1,15 @@
 name = "Talks"
 
 [[talk]]
-title = "containerd: Project Update and Deep Dive"
-date = "April 20, 2023 at 5:25 PM"
-conference = "KubeCon + CloudNativeCon Europe"
-conf_year = "2023"
-co_speaker = "Maksym Pavlenko"
+title        = "containerd: Project Update and Deep Dive"
+date         = "April 20, 2023 at 5:25 PM"
+conference   = "KubeCon + CloudNativeCon Europe"
+conf_year    = "2023"
+co_speaker   = "Maksym Pavlenko"
 catalog_link = "https://kccnceu2023.sched.com/event/1HyUG/containerd-project-update-and-deep-dive-maksym-pavlenko-apple-samuel-karp-google"
-abstract = """
+speakerdeck  = "https://speakerdeck.com/samuelkarp/containerd-project-update-and-deep-dive-kubecon-plus-cloudnativecon-eu-2023"
+youtube      = "https://www.youtube.com/watch?v=a1-9lIZszVU"
+abstract     = """
 Join containerd maintainers for an introduction and deep dive into the latest
 updates on containerd. For Kubernetes users, we will cover how to get started
 and configure containerd. We'll then dive into the exciting work going on in
