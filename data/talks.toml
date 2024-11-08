@@ -1,6 +1,47 @@
 name = "Talks"
 
 [[talk]]
+title        = "What's going on in the containerd neighborhood"
+date         = "November 15, 2024 at 2:55 PM"
+conference   = "KubeCon + CloudNativeCon North America"
+conf_year    = "2024"
+co_speaker   = "Kirtana Ashok, Michael Brown, Phil Estes, and Akihiro Suda"
+catalog_link = "https://kccncna2024.sched.com/event/1hoyS/whats-going-on-in-the-containerd-neighborhood-phil-estes-aws-samuel-karp-google-akihiro-suda-ntt-michael-brown-ibm-kirtana-ashok-microsoft"
+abstract     = """
+Our recent maintainer sessions have covered the soon-to-launch containerd v2.0.
+During this session led by maintainers we will give a brief update on 2.0, but
+will spend more time looking at the ecosystem around us. Why does containerd
+exist? What value does it bring to the overall cloud native world? How are
+other projects using it to build and extend containerd in useful ways? We’ll
+spend some time on containerd’s largest subproject, nerdctl, which also has an
+upcoming 2.0 release, and additionally catch the community up on activity in
+our Rust subproject ecosystem, the runwasi containerd shim, and lazy loading
+snapshotters. Since this is KubeCon, we’ll also provide an update on CRI
+changes and KEP-driven additions around NRI, DRA, and checkpoint/restore.
+Attendees will leave with a broad view of the larger containerd ecosystem of
+projects as well as key information on how to get involved if you are
+interested to help and contribute in any way to the “containerd neighborhood!”
+"""
+
+[[talk]]
+title        = "What containerd 2.0 means for you"
+date         = "November 15, 2024 at 11:55 AM"
+conference   = "KubeCon + CloudNativeCon North America"
+conf_year    = "2024"
+catalog_link = "https://kccncna2024.sched.com/event/1i7qL/what-containerd-20-means-for-you-samuel-karp-google"
+abstract     = """
+containerd 2.0 is the first major new version of containerd since 1.0.0 was
+released in 2017. This new version of containerd introduces new features, new
+extension points, and new backends for image operations and CRI with the goal
+of increased flexibility and better efficiency for certain types of workloads.
+containerd 2.0 also removes some previously-deprecated features in favor of
+modern replacements. This talk will discuss how to prepare for containerd 2.0
+in your production environments, including strategies for incorporating
+containerd 2.0's new functionality and detecting/remediating any impact of
+removed features prior to upgrading.
+"""
+
+[[talk]]
 title        = "containerd: Project Update and Deep Dive"
 date         = "April 20, 2023 at 5:25 PM"
 conference   = "KubeCon + CloudNativeCon Europe"
