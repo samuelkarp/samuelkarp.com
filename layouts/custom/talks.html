@@ -32,16 +32,16 @@
 		<div>{{ $el.abstract | markdownify }}</div>
 		<ul>
 		{{ with $el.youtube }}
-		  <li><a href="{{ $el.youtube }}"><i class="fa fa-youtube"></i>&nbsp;&nbsp;View recording on YouTube</a></li>
+		  <li><a href="{{ $el.youtube }}"><i class="fa-brands fa-youtube"></i>&nbsp;&nbsp;View recording on YouTube</a></li>
 		{{ end }}
 		{{ with $el.slideshare }}
-		  <li><a href="{{ $el.slideshare }}"><i class="fa fa-slideshare"></i>&nbsp;&nbsp;View slides on Slideshare</a></li>
+		  <li><a href="{{ $el.slideshare }}"><i class="fa-brands fa-slideshare"></i>&nbsp;&nbsp;View slides on Slideshare</a></li>
 		{{ end }}
 		{{ with $el.speakerdeck }}
-		  <li><a href="{{ $el.speakerdeck }}"><i class="fa fa-file-powerpoint-o"></i>&nbsp;&nbsp;View slides on SpeakerDeck</a></li>
+		  <li><a href="{{ $el.speakerdeck }}"><i class="fa-regular fa-file-powerpoint"></i>&nbsp;&nbsp;View slides on SpeakerDeck</a></li>
 		{{ end}}
 		  {{ range $j, $link := $el.link }}
-		  <li><a href="{{ $link.href }}">{{ with $link.icon }}<i class="fa fa-{{ $link.icon }}"></i>&nbsp;&nbsp;{{ end }}{{ $link.title }}</a></li>
+		  <li><a href="{{ $link.href }}">{{ with $link.icon }}<i class="{{ $link.icon }}"></i>&nbsp;&nbsp;{{ end }}{{ $link.title }}</a></li>
 		  {{ end}}
 		</ul>
               </div>

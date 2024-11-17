@@ -125,7 +125,7 @@ This session is a repeat of the session from last year.
 """
 [[talk.link]]
 title = "Online Q&A"
-icon = "comments"
+icon = "fa-solid fa-comments"
 href = "https://discuss.lfnw.org/t/linux-container-primitives/177"
 
 
@@ -151,7 +151,7 @@ examples and real-world use in the firecracker-containerd project.
 """
 [[talk.link]]
 title = "View demo script"
-icon = "github"
+icon = "fa-brands fa-github"
 href = "https://github.com/samuelkarp/firecracker-containerd-demo-ami/blob/master/scale.sh"
 
 [[talk]]
@@ -175,7 +175,7 @@ adapting containers into microVMs, and the firecracker-containerd suite.
 """
 [[talk.link]]
 title = "View demo script"
-icon = "github"
+icon = "fa-brands fa-github"
 href = "https://github.com/samuelkarp/firecracker-containerd-demo-ami/blob/master/reinvent.sh"
 
 [[talk]]
@@ -202,7 +202,7 @@ examples and real-world use in the firecracker-containerd project.
 """
 [[talk.link]]
 title = "View demo script"
-icon = "github"
+icon = "fa-brands fa-github"
 href = "https://github.com/samuelkarp/firecracker-containerd-demo-ami/blob/master/kubecon.sh"
 
 [[talk]]
@@ -227,7 +227,7 @@ adapting containers into microVMs, and the firecracker-containerd suite.
 """
 [[talk.link]]
 title = "View recording on Docker.com"
-icon  = "play-circle"
+icon  = "fa-solid fa-play-circle"
 href  = "https://www.docker.com/dockercon/2019-videos?watch=deep-dive-into-firecracker-containerd"
 
 

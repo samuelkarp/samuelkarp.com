@@ -1,7 +1,7 @@
 name = "Projects"
 
 [[source]]
-icon        = "fa fa-server"
+icon        = "fa-solid fa-server"
 name        = "Open Container Initiative"
 website     = "https://opencontainers.org/"
 role        = "chair of the technical oversight board"
@@ -23,7 +23,7 @@ OCI Projects.
 """
 
 [[source]]
-icon        = "fa fa-github"
+icon        = "fa-brands fa-github"
 name        = "containerd"
 website     = "https://github.com/containerd/containerd"
 role        = "maintainer"
@@ -45,7 +45,7 @@ and check out containerd's [security advisories](https://github.com/containerd/c
 """
 
 [[source]]
-icon        = "fa fa-github"
+icon        = "fa-brands fa-github"
 name        = "Docker / Moby"
 website     = "https://github.com/moby/moby"
 role        = "maintainer"
@@ -63,7 +63,7 @@ which helps send container output to CloudWatch Logs.
 """
 
 [[source]]
-icon        = "fa fa-github"
+icon        = "fa-brands fa-github"
 name        = "runj"
 website     = "https://github.com/samuelkarp/runj"
 role        = "author"
@@ -75,7 +75,7 @@ jails.
 """
 
 [[source]]
-icon        = "fa fa-github"
+icon        = "fa-brands fa-github"
 name        = "Bottlerocket"
 website     = "https://github.com/bottlerocket-os/bottlerocket"
 role        = "former maintainer, no longer involved"
@@ -90,7 +90,7 @@ Bottlerocket-specific additions focus on reliable updates and on the API.
 
 
 [[source]]
-icon        = "fa fa-github"
+icon        = "fa-brands fa-github"
 name        = "firecracker-containerd"
 website     = "https://github.com/firecracker-microvm/firecracker-containerd"
 role        = "former maintainer, no longer involved"
@@ -105,7 +105,7 @@ ecosystem tools and conventions.
 """
 
 [[source]]
-icon        = "fa fa-github"
+icon        = "fa-brands fa-github"
 name        = "Firecracker SDK for Go"
 website     = "https://github.com/firecracker-microvm/firecracker-go-sdk"
 role        = "former maintainer, no longer involved"
@@ -118,7 +118,7 @@ flexibility to override when necessary.
 """
 
 [[source]]
-icon        = "fa fa-github"
+icon        = "fa-brands fa-github"
 name        = "firectl"
 website     = "https://github.com/firecracker-microvm/firectl"
 role        = "former maintainer, no longer involved"
@@ -129,7 +129,7 @@ virtual machines without having to directly interact with the API.
 """
 
 [[source]]
-icon        = "fa fa-github"
+icon        = "fa-brands fa-github"
 name        = "Amazon ECS Container Agent"
 website     = "https://github.com/aws/amazon-ecs-agent"
 role        = "former maintainer, no longer involved"
@@ -140,7 +140,7 @@ container runtime and the Amazon ECS backend.
 """
 
 [[source]]
-icon        = "fa fa-github"
+icon        = "fa-brands fa-github"
 name        = "Amazon ECR Credential Helper"
 website     = "https://github.com/awslabs/amazon-ecr-credential-helper"
 role        = "original author, no longer involved"
@@ -152,7 +152,7 @@ Docker container images.
 """
 
 [[source]]
-icon        = "fa fa-github"
+icon        = "fa-brands fa-github"
 name        = "Amazon ECR containerd resolver"
 website     = "https://github.com/awslabs/amazon-ecr-containerd-resolver"
 role        = "original author, no longer involved"
@@ -166,7 +166,7 @@ transfer time for images.
 """
 
 [[source]]
-icon        = "fa fa-github"
+icon        = "fa-brands fa-github"
 name        = "purple-docker"
 website     = "https://github.com/samuelkarp/purple-docker"
 role        = "author"

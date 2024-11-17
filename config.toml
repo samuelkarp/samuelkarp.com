@@ -21,7 +21,8 @@ theme = "sustain"
 
 [params.social]
   Github        = "samuelkarp"
-  Twitter       = "samuelkarp"
+  Bluesky       = "samuelkarp.com"
+  Mastodon      = "https://social.seattle.wa.us/@samuelkarp"
   LinkedIn      = "samuelkarp"
   Stackoverflow = "users/112821/samuel-karp"
 
