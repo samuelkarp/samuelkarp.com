@@ -30,6 +30,7 @@ date         = "November 15, 2024 at 11:55 AM"
 conference   = "KubeCon + CloudNativeCon North America"
 conf_year    = "2024"
 catalog_link = "https://kccncna2024.sched.com/event/1i7qL/what-containerd-20-means-for-you-samuel-karp-google"
+speakerdeck  = "https://speakerdeck.com/samuelkarp/what-containerd-2-dot-0-means-for-you-kubecon-plus-cloudnativecon-north-america-2024"
 youtube      = "https://www.youtube.com/watch?v=fDDSg2NVwO4"
 abstract     = """
 containerd 2.0 is the first major new version of containerd since 1.0.0 was
