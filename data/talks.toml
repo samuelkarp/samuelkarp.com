@@ -7,6 +7,7 @@ conference   = "KubeCon + CloudNativeCon North America"
 conf_year    = "2024"
 co_speaker   = "Kirtana Ashok, Michael Brown, Phil Estes, and Akihiro Suda"
 catalog_link = "https://kccncna2024.sched.com/event/1hoyS/whats-going-on-in-the-containerd-neighborhood-phil-estes-aws-samuel-karp-google-akihiro-suda-ntt-michael-brown-ibm-kirtana-ashok-microsoft"
+youtube      = "https://www.youtube.com/watch?v=SDG6Um9JPxU"
 abstract     = """
 Our recent maintainer sessions have covered the soon-to-launch containerd v2.0.
 During this session led by maintainers we will give a brief update on 2.0, but
@@ -29,6 +30,7 @@ date         = "November 15, 2024 at 11:55 AM"
 conference   = "KubeCon + CloudNativeCon North America"
 conf_year    = "2024"
 catalog_link = "https://kccncna2024.sched.com/event/1i7qL/what-containerd-20-means-for-you-samuel-karp-google"
+youtube      = "https://www.youtube.com/watch?v=fDDSg2NVwO4"
 abstract     = """
 containerd 2.0 is the first major new version of containerd since 1.0.0 was
 released in 2017. This new version of containerd introduces new features, new
