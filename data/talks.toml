@@ -1,6 +1,25 @@
 name = "Talks"
 
 [[talk]]
+title        = "containerd: Project Update and Deep Dive"
+date         = "April 3, 2025 at 5:30 PM"
+conference   = "KubeCon + CloudNativeCon Europe"
+conf_year    = "2025"
+co_speaker   = "Maksym Pavklenko, Akihiro Suda, Laura Brehm, and Jiaxiao Zhou"
+catalog_link = "https://kccnceu2025.sched.com/event/1td0k"
+speakerdeck  = "https://speakerdeck.com/samuelkarp/containerd-project-update-and-deep-dive-kubecon-plus-cloudnativecon-eu-2025"
+youtube      = ""
+abstract     = """
+Join containerd maintainers for an update and deep dive into the latest
+developments in containerd. This panel will feature discussion of the launch
+and adoption of containerd 2.0, what’s next in 2.1, 1.7’s transition into
+Extended support, and how LTS is going with 1.6. Topics will also include how
+the containerd project is involved with the KEP process and highlight how the
+broader cloud native ecosystem is enhanced through extension points in
+containerd and subprojects like runwasi. 
+"""
+
+[[talk]]
 title        = "What's going on in the containerd neighborhood"
 date         = "November 15, 2024 at 2:55 PM"
 conference   = "KubeCon + CloudNativeCon North America"
