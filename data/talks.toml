@@ -8,7 +8,7 @@ conf_year    = "2025"
 co_speaker   = "Maksym Pavklenko, Akihiro Suda, Laura Brehm, and Jiaxiao Zhou"
 catalog_link = "https://kccnceu2025.sched.com/event/1td0k"
 speakerdeck  = "https://speakerdeck.com/samuelkarp/containerd-project-update-and-deep-dive-kubecon-plus-cloudnativecon-eu-2025"
-youtube      = ""
+youtube      = "https://www.youtube.com/watch?v=5ZWbS01wCMk"
 abstract     = """
 Join containerd maintainers for an update and deep dive into the latest
 developments in containerd. This panel will feature discussion of the launch
