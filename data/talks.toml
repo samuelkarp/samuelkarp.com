@@ -2,6 +2,25 @@ name = "Talks"
 
 [[talk]]
 title        = "containerd: Project Update and Deep Dive"
+date         = "November 12, 2026 at 11:00 AM"
+conference   = "KubeCon + CloudNativeCon North America"
+conf_year    = "2026"
+co_speaker   = "Wei Fu"
+catalog_link = "https://kubecon-cloudnativecon-north-america-2026.sessionize.com/session/1289714"
+abstract     = """
+Join containerd maintainers for project update and deep dive into the latest
+updates on containerd.  LLM-assisted vulnerability discovery has had a big
+impact on containerd: we'll discuss the impact on the project and changes we've
+made to improve our security response.  For Kubernetes users, we will cover how
+the new containerd release cycle, support window, and upgrade safety changes
+make feature availability faster and make long-term support available across
+Kubernetes versions.  We’ll then dive into the exciting work going on in the
+containerd ecosystem, including further developments in the Node Resource
+Interface (NRI) and EROFS snapshotter.
+"""
+
+[[talk]]
+title        = "containerd: Project Update and Deep Dive"
 date         = "April 3, 2025 at 5:30 PM"
 conference   = "KubeCon + CloudNativeCon Europe"
 conf_year    = "2025"
