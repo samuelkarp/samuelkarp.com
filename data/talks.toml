@@ -8,6 +8,7 @@ conf_year    = "2026"
 co_speaker   = "Wei Fu"
 catalog_link = "https://kubecon-cloudnativecon-north-america-2026.sessionize.com/session/1289714"
 speakerdeck  = "https://speakerdeck.com/samuelkarp/kubecon-2026-na-containerd-project-update-and-deep-dive"
+youtube      = "https://www.youtube.com/watch?v=STbP-PSULm0"
 abstract     = """
 Join containerd maintainers for project update and deep dive into the latest
 updates on containerd.  LLM-assisted vulnerability discovery has had a big
